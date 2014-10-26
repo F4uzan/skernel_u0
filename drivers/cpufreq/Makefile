@@ -26,6 +26,7 @@ obj-$(CONFIG_CPU_FREQ_GOV_SAVAGEDZEN)	+= cpufreq_savagedzen.o
 obj-$(CONFIG_CPU_FREQ_GOV_VIRTUOUS)	+= cpufreq_virtuous.o
 obj-$(CONFIG_CPU_FREQ_GOV_SUPERBAD)	+= cpufreq_superbad.o
 obj-$(CONFIG_CPU_FREQ_GOV_LAGFREE)      += cpufreq_lagfree.o
+obj-$(CONFIG_CPU_FREQ_GOV_PEGASUSQ)   += cpufreq_pegasusq.o
 
 
 # CPUfreq cross-arch helpers
